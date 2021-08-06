@@ -1,0 +1,3 @@
+error.log
+requests/daily/*
+server/daily/*

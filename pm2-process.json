@@ -1,0 +1,22 @@
+{
+  "apps": [
+    {
+      "name": "Techuz-API",
+      "script": "./build/index.js",
+      "watch": true,
+      "ignore_watch": [
+        "node_modules",
+        "public",
+        "logs"
+      ],
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "autorestart": true,
+      "instances": 0,
+      "log_date_format": "DD.MM.YYYY HH:mm Z",
+      "error_file": "./logs/pm2/error.log",
+      "out_file": "./logs/pm2/out.log"
+    }
+  ]
+}
